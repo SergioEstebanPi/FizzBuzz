@@ -31,4 +31,11 @@ public class FizzBuzzTest {
         Assert.assertEquals("FizzBuzz", fizzBuzzConverter.convert(15));
         Assert.assertEquals("FizzBuzz", fizzBuzzConverter.convert(30));
     }
+
+    @Test
+    public void getMultiplesFrom1To100(){
+        FizzBuzzConverter fizzBuzzConverter = new FizzBuzzConverter();
+        Assert.assertEquals("FizzBuzz", fizzBuzzConverter.convert(15));
+        Assert.assertEquals("FizzBuzz", fizzBuzzConverter.convert(30));
+    }
 }
